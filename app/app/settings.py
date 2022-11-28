@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'office',
     'appointment',
     'storages',
+    'logs',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
     'users',

@@ -24,5 +24,6 @@ path('api/v1/admin/', admin.site.urls),
     path('api/v1/users/', include('users.urls')),
     path('api/v1/appointment/', include('appointment.urls')),
     path('api/v1/office/', include('office.urls')),
+    path('api/v1/logs/', include('logs.urls')),
     # path('api/v1/users/details/', GetUserView.as_view(), name='get_user'),
 ]
